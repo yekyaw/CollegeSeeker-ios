@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98EF910517C1C3B800EB965A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910417C1C3B800EB965A /* UIKit.framework */; };
+		98EF910717C1C3B800EB965A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910617C1C3B800EB965A /* Foundation.framework */; };
+		98EF910917C1C3B800EB965A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910817C1C3B800EB965A /* CoreGraphics.framework */; };
+		98EF910F17C1C3B800EB965A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98EF910D17C1C3B800EB965A /* InfoPlist.strings */; };
+		98EF911117C1C3B800EB965A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF911017C1C3B800EB965A /* main.m */; };
+		98EF911517C1C3B800EB965A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF911417C1C3B800EB965A /* AppDelegate.m */; };
+		98EF911717C1C3B800EB965A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF911617C1C3B800EB965A /* Default.png */; };
+		98EF911917C1C3B800EB965A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF911817C1C3B800EB965A /* Default@2x.png */; };
+		98EF911B17C1C3B800EB965A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF911A17C1C3B800EB965A /* Default-568h@2x.png */; };
+		98EF911E17C1C3B800EB965A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EF911C17C1C3B800EB965A /* MainStoryboard_iPhone.storyboard */; };
+		98EF912117C1C3B800EB965A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EF911F17C1C3B800EB965A /* MainStoryboard_iPad.storyboard */; };
+		98EF912417C1C3B800EB965A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF912317C1C3B800EB965A /* FirstViewController.m */; };
+		98EF912617C1C3B800EB965A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF912517C1C3B800EB965A /* first.png */; };
+		98EF912817C1C3B800EB965A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF912717C1C3B800EB965A /* first@2x.png */; };
+		98EF912B17C1C3B800EB965A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF912A17C1C3B800EB965A /* SecondViewController.m */; };
+		98EF912D17C1C3B800EB965A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF912C17C1C3B800EB965A /* second.png */; };
+		98EF912F17C1C3B800EB965A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF912E17C1C3B800EB965A /* second@2x.png */; };
+		98EF913717C1C3B800EB965A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF913617C1C3B800EB965A /* SenTestingKit.framework */; };
+		98EF913817C1C3B800EB965A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910417C1C3B800EB965A /* UIKit.framework */; };
+		98EF913917C1C3B800EB965A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910617C1C3B800EB965A /* Foundation.framework */; };
+		98EF914117C1C3B800EB965A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98EF913F17C1C3B800EB965A /* InfoPlist.strings */; };
+		98EF914417C1C3B800EB965A /* College_SeekerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF914317C1C3B800EB965A /* College_SeekerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98EF913A17C1C3B800EB965A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98EF90F917C1C3B800EB965A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98EF910017C1C3B800EB965A;
+			remoteInfo = "College Seeker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98EF910117C1C3B800EB965A /* College Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EF910417C1C3B800EB965A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98EF910617C1C3B800EB965A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98EF910817C1C3B800EB965A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98EF910C17C1C3B800EB965A /* College Seeker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "College Seeker-Info.plist"; sourceTree = "<group>"; };
+		98EF910E17C1C3B800EB965A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98EF911017C1C3B800EB965A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98EF911217C1C3B800EB965A /* College Seeker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "College Seeker-Prefix.pch"; sourceTree = "<group>"; };
+		98EF911317C1C3B800EB965A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98EF911417C1C3B800EB965A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98EF911617C1C3B800EB965A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		98EF911817C1C3B800EB965A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		98EF911A17C1C3B800EB965A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		98EF911D17C1C3B800EB965A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		98EF912017C1C3B800EB965A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		98EF912217C1C3B800EB965A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		98EF912317C1C3B800EB965A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		98EF912517C1C3B800EB965A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		98EF912717C1C3B800EB965A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		98EF912917C1C3B800EB965A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		98EF912A17C1C3B800EB965A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		98EF912C17C1C3B800EB965A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		98EF912E17C1C3B800EB965A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		98EF913517C1C3B800EB965A /* College SeekerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College SeekerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EF913617C1C3B800EB965A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		98EF913E17C1C3B800EB965A /* College SeekerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "College SeekerTests-Info.plist"; sourceTree = "<group>"; };
+		98EF914017C1C3B800EB965A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98EF914217C1C3B800EB965A /* College_SeekerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = College_SeekerTests.h; sourceTree = "<group>"; };
+		98EF914317C1C3B800EB965A /* College_SeekerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = College_SeekerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98EF90FE17C1C3B800EB965A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF910517C1C3B800EB965A /* UIKit.framework in Frameworks */,
+				98EF910717C1C3B800EB965A /* Foundation.framework in Frameworks */,
+				98EF910917C1C3B800EB965A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EF913117C1C3B800EB965A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF913717C1C3B800EB965A /* SenTestingKit.framework in Frameworks */,
+				98EF913817C1C3B800EB965A /* UIKit.framework in Frameworks */,
+				98EF913917C1C3B800EB965A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98EF90F817C1C3B800EB965A = {
+			isa = PBXGroup;
+			children = (
+				98EF910A17C1C3B800EB965A /* College Seeker */,
+				98EF913C17C1C3B800EB965A /* College SeekerTests */,
+				98EF910317C1C3B800EB965A /* Frameworks */,
+				98EF910217C1C3B800EB965A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98EF910217C1C3B800EB965A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98EF910117C1C3B800EB965A /* College Seeker.app */,
+				98EF913517C1C3B800EB965A /* College SeekerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98EF910317C1C3B800EB965A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98EF910417C1C3B800EB965A /* UIKit.framework */,
+				98EF910617C1C3B800EB965A /* Foundation.framework */,
+				98EF910817C1C3B800EB965A /* CoreGraphics.framework */,
+				98EF913617C1C3B800EB965A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98EF910A17C1C3B800EB965A /* College Seeker */ = {
+			isa = PBXGroup;
+			children = (
+				98EF911317C1C3B800EB965A /* AppDelegate.h */,
+				98EF911417C1C3B800EB965A /* AppDelegate.m */,
+				98EF911C17C1C3B800EB965A /* MainStoryboard_iPhone.storyboard */,
+				98EF911F17C1C3B800EB965A /* MainStoryboard_iPad.storyboard */,
+				98EF912217C1C3B800EB965A /* FirstViewController.h */,
+				98EF912317C1C3B800EB965A /* FirstViewController.m */,
+				98EF912517C1C3B800EB965A /* first.png */,
+				98EF912717C1C3B800EB965A /* first@2x.png */,
+				98EF912917C1C3B800EB965A /* SecondViewController.h */,
+				98EF912A17C1C3B800EB965A /* SecondViewController.m */,
+				98EF912C17C1C3B800EB965A /* second.png */,
+				98EF912E17C1C3B800EB965A /* second@2x.png */,
+				98EF910B17C1C3B800EB965A /* Supporting Files */,
+			);
+			path = "College Seeker";
+			sourceTree = "<group>";
+		};
+		98EF910B17C1C3B800EB965A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98EF910C17C1C3B800EB965A /* College Seeker-Info.plist */,
+				98EF910D17C1C3B800EB965A /* InfoPlist.strings */,
+				98EF911017C1C3B800EB965A /* main.m */,
+				98EF911217C1C3B800EB965A /* College Seeker-Prefix.pch */,
+				98EF911617C1C3B800EB965A /* Default.png */,
+				98EF911817C1C3B800EB965A /* Default@2x.png */,
+				98EF911A17C1C3B800EB965A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98EF913C17C1C3B800EB965A /* College SeekerTests */ = {
+			isa = PBXGroup;
+			children = (
+				98EF914217C1C3B800EB965A /* College_SeekerTests.h */,
+				98EF914317C1C3B800EB965A /* College_SeekerTests.m */,
+				98EF913D17C1C3B800EB965A /* Supporting Files */,
+			);
+			path = "College SeekerTests";
+			sourceTree = "<group>";
+		};
+		98EF913D17C1C3B800EB965A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98EF913E17C1C3B800EB965A /* College SeekerTests-Info.plist */,
+				98EF913F17C1C3B800EB965A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98EF910017C1C3B800EB965A /* College Seeker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EF914717C1C3B800EB965A /* Build configuration list for PBXNativeTarget "College Seeker" */;
+			buildPhases = (
+				98EF90FD17C1C3B800EB965A /* Sources */,
+				98EF90FE17C1C3B800EB965A /* Frameworks */,
+				98EF90FF17C1C3B800EB965A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "College Seeker";
+			productName = "College Seeker";
+			productReference = 98EF910117C1C3B800EB965A /* College Seeker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98EF913417C1C3B800EB965A /* College SeekerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EF914A17C1C3B800EB965A /* Build configuration list for PBXNativeTarget "College SeekerTests" */;
+			buildPhases = (
+				98EF913017C1C3B800EB965A /* Sources */,
+				98EF913117C1C3B800EB965A /* Frameworks */,
+				98EF913217C1C3B800EB965A /* Resources */,
+				98EF913317C1C3B800EB965A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98EF913B17C1C3B800EB965A /* PBXTargetDependency */,
+			);
+			name = "College SeekerTests";
+			productName = "College SeekerTests";
+			productReference = 98EF913517C1C3B800EB965A /* College SeekerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98EF90F917C1C3B800EB965A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ye Kyaw";
+			};
+			buildConfigurationList = 98EF90FC17C1C3B800EB965A /* Build configuration list for PBXProject "College Seeker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 98EF90F817C1C3B800EB965A;
+			productRefGroup = 98EF910217C1C3B800EB965A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98EF910017C1C3B800EB965A /* College Seeker */,
+				98EF913417C1C3B800EB965A /* College SeekerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98EF90FF17C1C3B800EB965A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF910F17C1C3B800EB965A /* InfoPlist.strings in Resources */,
+				98EF911717C1C3B800EB965A /* Default.png in Resources */,
+				98EF911917C1C3B800EB965A /* Default@2x.png in Resources */,
+				98EF911B17C1C3B800EB965A /* Default-568h@2x.png in Resources */,
+				98EF911E17C1C3B800EB965A /* MainStoryboard_iPhone.storyboard in Resources */,
+				98EF912117C1C3B800EB965A /* MainStoryboard_iPad.storyboard in Resources */,
+				98EF912617C1C3B800EB965A /* first.png in Resources */,
+				98EF912817C1C3B800EB965A /* first@2x.png in Resources */,
+				98EF912D17C1C3B800EB965A /* second.png in Resources */,
+				98EF912F17C1C3B800EB965A /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EF913217C1C3B800EB965A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF914117C1C3B800EB965A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		98EF913317C1C3B800EB965A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98EF90FD17C1C3B800EB965A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF911117C1C3B800EB965A /* main.m in Sources */,
+				98EF911517C1C3B800EB965A /* AppDelegate.m in Sources */,
+				98EF912417C1C3B800EB965A /* FirstViewController.m in Sources */,
+				98EF912B17C1C3B800EB965A /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EF913017C1C3B800EB965A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF914417C1C3B800EB965A /* College_SeekerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98EF913B17C1C3B800EB965A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98EF910017C1C3B800EB965A /* College Seeker */;
+			targetProxy = 98EF913A17C1C3B800EB965A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98EF910D17C1C3B800EB965A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EF910E17C1C3B800EB965A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98EF911C17C1C3B800EB965A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EF911D17C1C3B800EB965A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		98EF911F17C1C3B800EB965A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EF912017C1C3B800EB965A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		98EF913F17C1C3B800EB965A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EF914017C1C3B800EB965A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98EF914517C1C3B800EB965A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98EF914617C1C3B800EB965A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98EF914817C1C3B800EB965A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "College Seeker/College Seeker-Prefix.pch";
+				INFOPLIST_FILE = "College Seeker/College Seeker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98EF914917C1C3B800EB965A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "College Seeker/College Seeker-Prefix.pch";
+				INFOPLIST_FILE = "College Seeker/College Seeker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98EF914B17C1C3B800EB965A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/College Seeker.app/College Seeker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "College Seeker/College Seeker-Prefix.pch";
+				INFOPLIST_FILE = "College SeekerTests/College SeekerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		98EF914C17C1C3B800EB965A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/College Seeker.app/College Seeker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "College Seeker/College Seeker-Prefix.pch";
+				INFOPLIST_FILE = "College SeekerTests/College SeekerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98EF90FC17C1C3B800EB965A /* Build configuration list for PBXProject "College Seeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EF914517C1C3B800EB965A /* Debug */,
+				98EF914617C1C3B800EB965A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EF914717C1C3B800EB965A /* Build configuration list for PBXNativeTarget "College Seeker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EF914817C1C3B800EB965A /* Debug */,
+				98EF914917C1C3B800EB965A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98EF914A17C1C3B800EB965A /* Build configuration list for PBXNativeTarget "College SeekerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EF914B17C1C3B800EB965A /* Debug */,
+				98EF914C17C1C3B800EB965A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98EF90F917C1C3B800EB965A /* Project object */;
+}
