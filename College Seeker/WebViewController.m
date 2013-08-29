@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    if ([self.urlString length] < 1) return;
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://%@", self.urlString]];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [self.webView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning

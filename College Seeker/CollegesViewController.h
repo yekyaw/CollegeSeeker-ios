@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AbstractTableViewController.h"
 
-@interface SecondViewController : UIViewController
+@interface CollegesViewController : AbstractTableViewController
+
+@property (strong, nonatomic) NSString *state;
 
 @end

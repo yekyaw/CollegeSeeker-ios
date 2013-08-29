@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AbstractTableViewController : UIViewController
+@interface AbstractTableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate,
+    UISearchDisplayDelegate>
+
+@property (nonatomic, strong) NSArray *colleges;
+@property (nonatomic, strong) NSArray *searchResults;
+@property (atomic, weak) NSManagedObjectContext *managedObjectContext;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

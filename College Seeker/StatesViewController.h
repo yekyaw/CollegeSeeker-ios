@@ -1,5 +1,5 @@
 //
-//  statesViewController.h
+//  StatesViewController.h
 //  College Seeker
 //
 //  Created by Ye Kyaw on 8/22/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface statesViewController : UIViewController
+@interface StatesViewController : UITableViewController
+
+@property (atomic, weak) NSManagedObjectContext *managedObjectContext;
 
 @end
