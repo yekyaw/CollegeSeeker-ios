@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		980EDDD517C4149400145C8B /* CollegeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 980EDDD417C4149400145C8B /* CollegeUtils.m */; };
+		980EDDE617C42F2400145C8B /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 980EDDE417C42F2400145C8B /* CSVParser.m */; };
+		981701FB17C815E0009837EB /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981701FA17C815E0009837EB /* WebViewController.m */; };
+		9832B52117C4471400A03D22 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 9832B52017C4471400A03D22 /* res */; };
+		98695C9A17C830B600E451E0 /* colleges.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 98695C9917C830B600E451E0 /* colleges.sqlite */; };
+		98A2D02E17C961A2006D54F4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A2D02D17C961A2006D54F4 /* Icon.png */; };
+		98A2D03017C96398006D54F4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A2D02F17C96398006D54F4 /* Icon-72.png */; };
+		98A36CA217C71F2000D71124 /* StatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A36CA117C71F1F00D71124 /* StatesViewController.m */; };
+		98A48F6117C554040016F5F7 /* College.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A48F6017C554040016F5F7 /* College.m */; };
+		98A48F6417C554300016F5F7 /* SavedCollege.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A48F6317C554300016F5F7 /* SavedCollege.m */; };
+		98A48F6A17C5BF0F0016F5F7 /* AbstractTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A48F6917C5BF0F0016F5F7 /* AbstractTableViewController.m */; };
+		98A48F6D17C5C5040016F5F7 /* SavedCollegesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A48F6C17C5C5040016F5F7 /* SavedCollegesViewController.m */; };
+		98A48F7017C5C6140016F5F7 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A48F6E17C5C6130016F5F7 /* third.png */; };
+		98A48F7117C5C6140016F5F7 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A48F6F17C5C6140016F5F7 /* third@2x.png */; };
+		98A48F7417C5CBF50016F5F7 /* CollegeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A48F7317C5CBF50016F5F7 /* CollegeDetailViewController.m */; };
 		98EF910517C1C3B800EB965A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910417C1C3B800EB965A /* UIKit.framework */; };
 		98EF910717C1C3B800EB965A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910617C1C3B800EB965A /* Foundation.framework */; };
 		98EF910917C1C3B800EB965A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910817C1C3B800EB965A /* CoreGraphics.framework */; };
@@ -21,7 +36,7 @@
 		98EF912417C1C3B800EB965A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF912317C1C3B800EB965A /* FirstViewController.m */; };
 		98EF912617C1C3B800EB965A /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF912517C1C3B800EB965A /* first.png */; };
 		98EF912817C1C3B800EB965A /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF912717C1C3B800EB965A /* first@2x.png */; };
-		98EF912B17C1C3B800EB965A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF912A17C1C3B800EB965A /* SecondViewController.m */; };
+		98EF912B17C1C3B800EB965A /* CollegesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF912A17C1C3B800EB965A /* CollegesViewController.m */; };
 		98EF912D17C1C3B800EB965A /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF912C17C1C3B800EB965A /* second.png */; };
 		98EF912F17C1C3B800EB965A /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98EF912E17C1C3B800EB965A /* second@2x.png */; };
 		98EF913717C1C3B800EB965A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF913617C1C3B800EB965A /* SenTestingKit.framework */; };
@@ -29,6 +44,10 @@
 		98EF913917C1C3B800EB965A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF910617C1C3B800EB965A /* Foundation.framework */; };
 		98EF914117C1C3B800EB965A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98EF913F17C1C3B800EB965A /* InfoPlist.strings */; };
 		98EF914417C1C3B800EB965A /* College_SeekerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF914317C1C3B800EB965A /* College_SeekerTests.m */; };
+		98EF914F17C1DA9900EB965A /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 98EF914D17C1DA9900EB965A /* Model.xcdatamodeld */; };
+		98EF915D17C2BFE100EB965A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF915C17C2BFE100EB965A /* CoreData.framework */; };
+		98EF916017C2F3E300EB965A /* CollegeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF915F17C2F3E300EB965A /* CollegeCell.m */; };
+		98EF91BB17C3360600EB965A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF91BA17C3360600EB965A /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +61,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		980EDDD317C4149400145C8B /* CollegeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeUtils.h; sourceTree = "<group>"; };
+		980EDDD417C4149400145C8B /* CollegeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeUtils.m; sourceTree = "<group>"; };
+		980EDDE317C42F2400145C8B /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		980EDDE417C42F2400145C8B /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		981701F917C815E0009837EB /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		981701FA17C815E0009837EB /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9832B52017C4471400A03D22 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		98695C9917C830B600E451E0 /* colleges.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = colleges.sqlite; sourceTree = "<group>"; };
+		98A2D02D17C961A2006D54F4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		98A2D02F17C96398006D54F4 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		98A36CA017C71F1F00D71124 /* StatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatesViewController.h; sourceTree = "<group>"; };
+		98A36CA117C71F1F00D71124 /* StatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatesViewController.m; sourceTree = "<group>"; };
+		98A48F5F17C554040016F5F7 /* College.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = College.h; sourceTree = "<group>"; };
+		98A48F6017C554040016F5F7 /* College.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = College.m; sourceTree = "<group>"; };
+		98A48F6217C554300016F5F7 /* SavedCollege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedCollege.h; sourceTree = "<group>"; };
+		98A48F6317C554300016F5F7 /* SavedCollege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedCollege.m; sourceTree = "<group>"; };
+		98A48F6817C5BF0F0016F5F7 /* AbstractTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractTableViewController.h; sourceTree = "<group>"; };
+		98A48F6917C5BF0F0016F5F7 /* AbstractTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractTableViewController.m; sourceTree = "<group>"; };
+		98A48F6B17C5C5040016F5F7 /* SavedCollegesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedCollegesViewController.h; sourceTree = "<group>"; };
+		98A48F6C17C5C5040016F5F7 /* SavedCollegesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedCollegesViewController.m; sourceTree = "<group>"; };
+		98A48F6E17C5C6130016F5F7 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
+		98A48F6F17C5C6140016F5F7 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third@2x.png"; sourceTree = "<group>"; };
+		98A48F7217C5CBF50016F5F7 /* CollegeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeDetailViewController.h; sourceTree = "<group>"; };
+		98A48F7317C5CBF50016F5F7 /* CollegeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeDetailViewController.m; sourceTree = "<group>"; };
 		98EF910117C1C3B800EB965A /* College Seeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Seeker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EF910417C1C3B800EB965A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		98EF910617C1C3B800EB965A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,8 +104,8 @@
 		98EF912317C1C3B800EB965A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		98EF912517C1C3B800EB965A /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		98EF912717C1C3B800EB965A /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		98EF912917C1C3B800EB965A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		98EF912A17C1C3B800EB965A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		98EF912917C1C3B800EB965A /* CollegesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollegesViewController.h; sourceTree = "<group>"; };
+		98EF912A17C1C3B800EB965A /* CollegesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollegesViewController.m; sourceTree = "<group>"; };
 		98EF912C17C1C3B800EB965A /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		98EF912E17C1C3B800EB965A /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		98EF913517C1C3B800EB965A /* College SeekerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "College SeekerTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +114,12 @@
 		98EF914017C1C3B800EB965A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98EF914217C1C3B800EB965A /* College_SeekerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = College_SeekerTests.h; sourceTree = "<group>"; };
 		98EF914317C1C3B800EB965A /* College_SeekerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = College_SeekerTests.m; sourceTree = "<group>"; };
+		98EF914E17C1DA9900EB965A /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		98EF915C17C2BFE100EB965A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		98EF915E17C2F3E300EB965A /* CollegeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollegeCell.h; sourceTree = "<group>"; };
+		98EF915F17C2F3E300EB965A /* CollegeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollegeCell.m; sourceTree = "<group>"; };
+		98EF91B917C3360600EB965A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		98EF91BA17C3360600EB965A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EF915D17C2BFE100EB965A /* CoreData.framework in Frameworks */,
 				98EF910517C1C3B800EB965A /* UIKit.framework in Frameworks */,
 				98EF910717C1C3B800EB965A /* Foundation.framework in Frameworks */,
 				98EF910917C1C3B800EB965A /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +150,7 @@
 		98EF90F817C1C3B800EB965A = {
 			isa = PBXGroup;
 			children = (
+				98EF915C17C2BFE100EB965A /* CoreData.framework */,
 				98EF910A17C1C3B800EB965A /* College Seeker */,
 				98EF913C17C1C3B800EB965A /* College SeekerTests */,
 				98EF910317C1C3B800EB965A /* Frameworks */,
@@ -130,19 +181,39 @@
 		98EF910A17C1C3B800EB965A /* College Seeker */ = {
 			isa = PBXGroup;
 			children = (
+				9832B52017C4471400A03D22 /* res */,
+				980EDDE317C42F2400145C8B /* CSVParser.h */,
+				980EDDE417C42F2400145C8B /* CSVParser.m */,
 				98EF911317C1C3B800EB965A /* AppDelegate.h */,
 				98EF911417C1C3B800EB965A /* AppDelegate.m */,
+				98EF91B917C3360600EB965A /* Constants.h */,
+				98EF91BA17C3360600EB965A /* Constants.m */,
 				98EF911C17C1C3B800EB965A /* MainStoryboard_iPhone.storyboard */,
 				98EF911F17C1C3B800EB965A /* MainStoryboard_iPad.storyboard */,
+				981701F917C815E0009837EB /* WebViewController.h */,
+				981701FA17C815E0009837EB /* WebViewController.m */,
+				98A48F7217C5CBF50016F5F7 /* CollegeDetailViewController.h */,
+				98A48F7317C5CBF50016F5F7 /* CollegeDetailViewController.m */,
 				98EF912217C1C3B800EB965A /* FirstViewController.h */,
 				98EF912317C1C3B800EB965A /* FirstViewController.m */,
-				98EF912517C1C3B800EB965A /* first.png */,
-				98EF912717C1C3B800EB965A /* first@2x.png */,
-				98EF912917C1C3B800EB965A /* SecondViewController.h */,
-				98EF912A17C1C3B800EB965A /* SecondViewController.m */,
-				98EF912C17C1C3B800EB965A /* second.png */,
-				98EF912E17C1C3B800EB965A /* second@2x.png */,
+				98A36CA017C71F1F00D71124 /* StatesViewController.h */,
+				98A36CA117C71F1F00D71124 /* StatesViewController.m */,
+				98EF912917C1C3B800EB965A /* CollegesViewController.h */,
+				98EF912A17C1C3B800EB965A /* CollegesViewController.m */,
+				98A48F6B17C5C5040016F5F7 /* SavedCollegesViewController.h */,
+				98A48F6C17C5C5040016F5F7 /* SavedCollegesViewController.m */,
 				98EF910B17C1C3B800EB965A /* Supporting Files */,
+				98A48F5F17C554040016F5F7 /* College.h */,
+				98A48F6017C554040016F5F7 /* College.m */,
+				98EF914D17C1DA9900EB965A /* Model.xcdatamodeld */,
+				98A48F6217C554300016F5F7 /* SavedCollege.h */,
+				98A48F6317C554300016F5F7 /* SavedCollege.m */,
+				98EF915E17C2F3E300EB965A /* CollegeCell.h */,
+				98EF915F17C2F3E300EB965A /* CollegeCell.m */,
+				980EDDD317C4149400145C8B /* CollegeUtils.h */,
+				980EDDD417C4149400145C8B /* CollegeUtils.m */,
+				98A48F6817C5BF0F0016F5F7 /* AbstractTableViewController.h */,
+				98A48F6917C5BF0F0016F5F7 /* AbstractTableViewController.m */,
 			);
 			path = "College Seeker";
 			sourceTree = "<group>";
@@ -150,6 +221,15 @@
 		98EF910B17C1C3B800EB965A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				98EF912517C1C3B800EB965A /* first.png */,
+				98EF912717C1C3B800EB965A /* first@2x.png */,
+				98EF912C17C1C3B800EB965A /* second.png */,
+				98EF912E17C1C3B800EB965A /* second@2x.png */,
+				98A48F6E17C5C6130016F5F7 /* third.png */,
+				98A48F6F17C5C6140016F5F7 /* third@2x.png */,
+				98695C9917C830B600E451E0 /* colleges.sqlite */,
+				98A2D02D17C961A2006D54F4 /* Icon.png */,
+				98A2D02F17C96398006D54F4 /* Icon-72.png */,
 				98EF910C17C1C3B800EB965A /* College Seeker-Info.plist */,
 				98EF910D17C1C3B800EB965A /* InfoPlist.strings */,
 				98EF911017C1C3B800EB965A /* main.m */,
@@ -261,6 +341,12 @@
 				98EF912817C1C3B800EB965A /* first@2x.png in Resources */,
 				98EF912D17C1C3B800EB965A /* second.png in Resources */,
 				98EF912F17C1C3B800EB965A /* second@2x.png in Resources */,
+				9832B52117C4471400A03D22 /* res in Resources */,
+				98A48F7017C5C6140016F5F7 /* third.png in Resources */,
+				98A48F7117C5C6140016F5F7 /* third@2x.png in Resources */,
+				98695C9A17C830B600E451E0 /* colleges.sqlite in Resources */,
+				98A2D02E17C961A2006D54F4 /* Icon.png in Resources */,
+				98A2D03017C96398006D54F4 /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +384,19 @@
 				98EF911117C1C3B800EB965A /* main.m in Sources */,
 				98EF911517C1C3B800EB965A /* AppDelegate.m in Sources */,
 				98EF912417C1C3B800EB965A /* FirstViewController.m in Sources */,
-				98EF912B17C1C3B800EB965A /* SecondViewController.m in Sources */,
+				98EF912B17C1C3B800EB965A /* CollegesViewController.m in Sources */,
+				98EF914F17C1DA9900EB965A /* Model.xcdatamodeld in Sources */,
+				98EF916017C2F3E300EB965A /* CollegeCell.m in Sources */,
+				98EF91BB17C3360600EB965A /* Constants.m in Sources */,
+				980EDDD517C4149400145C8B /* CollegeUtils.m in Sources */,
+				980EDDE617C42F2400145C8B /* CSVParser.m in Sources */,
+				98A48F6117C554040016F5F7 /* College.m in Sources */,
+				98A48F6417C554300016F5F7 /* SavedCollege.m in Sources */,
+				98A48F6A17C5BF0F0016F5F7 /* AbstractTableViewController.m in Sources */,
+				98A48F6D17C5C5040016F5F7 /* SavedCollegesViewController.m in Sources */,
+				98A48F7417C5CBF50016F5F7 /* CollegeDetailViewController.m in Sources */,
+				98A36CA217C71F2000D71124 /* StatesViewController.m in Sources */,
+				981701FB17C815E0009837EB /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +518,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "College Seeker/College Seeker-Prefix.pch";
 				INFOPLIST_FILE = "College Seeker/College Seeker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				"OTHER_CODE_SIGN_FLAGS[sdk=*]" = "-gta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s armv6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -431,7 +532,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "College Seeker/College Seeker-Prefix.pch";
 				INFOPLIST_FILE = "College Seeker/College Seeker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s armv6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -489,6 +592,7 @@
 				98EF914917C1C3B800EB965A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98EF914A17C1C3B800EB965A /* Build configuration list for PBXNativeTarget "College SeekerTests" */ = {
 			isa = XCConfigurationList;
@@ -497,8 +601,22 @@
 				98EF914C17C1C3B800EB965A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		98EF914D17C1DA9900EB965A /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				98EF914E17C1DA9900EB965A /* Model.xcdatamodel */,
+			);
+			currentVersion = 98EF914E17C1DA9900EB965A /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 98EF90F917C1C3B800EB965A /* Project object */;
 }
