@@ -12,6 +12,7 @@
 		981701FB17C815E0009837EB /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981701FA17C815E0009837EB /* WebViewController.m */; };
 		9832B52117C4471400A03D22 /* res in Resources */ = {isa = PBXBuildFile; fileRef = 9832B52017C4471400A03D22 /* res */; };
 		98695C9A17C830B600E451E0 /* colleges.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 98695C9917C830B600E451E0 /* colleges.sqlite */; };
+		98A1D82717D02DA80053874F /* MatchCollegesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A1D82617D02DA80053874F /* MatchCollegesViewController.m */; };
 		98A2D02E17C961A2006D54F4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A2D02D17C961A2006D54F4 /* Icon.png */; };
 		98A2D03017C96398006D54F4 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 98A2D02F17C96398006D54F4 /* Icon-72.png */; };
 		98A36CA217C71F2000D71124 /* StatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98A36CA117C71F1F00D71124 /* StatesViewController.m */; };
@@ -69,6 +70,8 @@
 		981701FA17C815E0009837EB /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		9832B52017C4471400A03D22 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		98695C9917C830B600E451E0 /* colleges.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = colleges.sqlite; sourceTree = "<group>"; };
+		98A1D82517D02DA80053874F /* MatchCollegesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchCollegesViewController.h; path = ../MatchCollegesViewController.h; sourceTree = "<group>"; };
+		98A1D82617D02DA80053874F /* MatchCollegesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchCollegesViewController.m; path = ../MatchCollegesViewController.m; sourceTree = "<group>"; };
 		98A2D02D17C961A2006D54F4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		98A2D02F17C96398006D54F4 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		98A36CA017C71F1F00D71124 /* StatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatesViewController.h; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 				98A48F7317C5CBF50016F5F7 /* CollegeDetailViewController.m */,
 				98EF912217C1C3B800EB965A /* FirstViewController.h */,
 				98EF912317C1C3B800EB965A /* FirstViewController.m */,
+				98A1D82517D02DA80053874F /* MatchCollegesViewController.h */,
+				98A1D82617D02DA80053874F /* MatchCollegesViewController.m */,
 				98A36CA017C71F1F00D71124 /* StatesViewController.h */,
 				98A36CA117C71F1F00D71124 /* StatesViewController.m */,
 				98EF912917C1C3B800EB965A /* CollegesViewController.h */,
@@ -397,6 +402,7 @@
 				98A48F7417C5CBF50016F5F7 /* CollegeDetailViewController.m in Sources */,
 				98A36CA217C71F2000D71124 /* StatesViewController.m in Sources */,
 				981701FB17C815E0009837EB /* WebViewController.m in Sources */,
+				98A1D82717D02DA80053874F /* MatchCollegesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
