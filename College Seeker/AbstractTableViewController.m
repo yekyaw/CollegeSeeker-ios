@@ -25,6 +25,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    [self.searchBar setShowsScopeBar:NO];
 }
 
 - (void)didReceiveMemoryWarning
@@ -74,7 +75,7 @@
         CollegeDetailViewController *destViewController = segue.destinationViewController;
         destViewController.managedObjectContext = self.managedObjectContext;
         if (isSearchResults) {
-            NSIndexPath *indexPath = [self.searchDisplayController.searchResultsTableView indexPathForSelectedRow];
+            NSIndexPath *indexPath = [self.searchController.searchResultsTableView indexPathForSelectedRow];
             destViewController.college = [self.searchResults objectAtIndex:indexPath.row];
         }
         else {
@@ -86,8 +87,8 @@
 
 - (void)searchDisplayControllerWillBeginSearch:(UISearchDisplayController *)controller {
     isSearchResults = YES;
-    [self.searchDisplayController.searchBar setShowsScopeBar:YES];
-    [self.searchDisplayController.searchBar sizeToFit];
+    [self.searchBar setShowsScopeBar:YES];
+    [self.searchBar sizeToFit];
 }
 
 - (void)searchDisplayControllerWillEndSearch:(UISearchDisplayController *)controller {
@@ -113,16 +114,16 @@
 shouldReloadTableForSearchString:(NSString *)searchString
 {
     [self filterContentForSearchText:searchString
-                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
-                                      objectAtIndex:[self.searchDisplayController.searchBar
+                               scope:[[self.searchBar scopeButtonTitles]
+                                      objectAtIndex:[self.searchBar
                                                      selectedScopeButtonIndex]]];
     return YES;
 }
 
 -(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchScope:(NSInteger)searchOption {
 //    // Tells the table data source to reload when scope bar selection changes
-    [self filterContentForSearchText:self.searchDisplayController.searchBar.text scope:
-     [[self.searchDisplayController.searchBar scopeButtonTitles] objectAtIndex:searchOption]];
+    [self filterContentForSearchText:self.searchBar.text scope:
+     [[self.searchBar scopeButtonTitles] objectAtIndex:searchOption]];
     // Return YES to cause the search result table view to be reloaded.
     return YES;
 }

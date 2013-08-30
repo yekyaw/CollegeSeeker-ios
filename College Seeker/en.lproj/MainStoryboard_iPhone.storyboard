@@ -345,7 +345,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1181" y="-159"/>
+            <point key="canvasLocation" x="1181" y="-155"/>
         </scene>
         <!--States View Controller-->
         <scene sceneID="M2V-dk-5Ml">
@@ -520,7 +520,7 @@
                                     <outlet property="delegate" destination="3" id="suK-c3-gRJ"/>
                                 </connections>
                             </tableView>
-                            <searchBar contentMode="redraw" barStyle="blackOpaque" placeholder="Search for College" translatesAutoresizingMaskIntoConstraints="NO" id="tnF-cP-c9R">
+                            <searchBar contentMode="redraw" barStyle="blackOpaque" placeholder="Search for College" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tnF-cP-c9R">
                                 <textInputTraits key="textInputTraits"/>
                                 <scopeButtonTitles>
                                     <string>All</string>
@@ -545,7 +545,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="tw4-i6-Su7"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="KbP-yV-ksF" id="F1v-gS-2IX"/>
+                        <outlet property="searchBar" destination="tnF-cP-c9R" id="JQf-1m-EGP"/>
+                        <outlet property="searchController" destination="KbP-yV-ksF" id="Stt-0C-SSJ"/>
                         <outlet property="tableView" destination="YNd-NI-cdM" id="r6N-fO-DPl"/>
                     </connections>
                 </viewController>
@@ -2109,7 +2110,7 @@
                                     <outlet property="delegate" destination="RpW-yA-POi" id="tc3-dk-pFK"/>
                                 </connections>
                             </tableView>
-                            <searchBar contentMode="redraw" barStyle="blackOpaque" placeholder="Search for College" translatesAutoresizingMaskIntoConstraints="NO" id="lXQ-4R-kiG">
+                            <searchBar contentMode="redraw" barStyle="blackOpaque" placeholder="Search for College" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lXQ-4R-kiG">
                                 <textInputTraits key="textInputTraits"/>
                                 <scopeButtonTitles>
                                     <string>All</string>
@@ -2134,6 +2135,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="ypa-Mj-9bC"/>
                     <connections>
+                        <outlet property="searchBar" destination="lXQ-4R-kiG" id="RDr-N1-E8h"/>
+                        <outlet property="searchController" destination="0bu-My-Gt4" id="ppu-of-fXA"/>
                         <outlet property="tableView" destination="k7k-WE-UsR" id="7vS-no-9dP"/>
                     </connections>
                 </viewController>
@@ -2169,10 +2172,10 @@
             </objects>
             <point key="canvasLocation" x="531" y="1286"/>
         </scene>
-        <!--Abstract Table View Controller - Colleges-->
+        <!--Match Colleges View Controller - Colleges-->
         <scene sceneID="sYi-4s-GPE">
             <objects>
-                <viewController title="Colleges" id="s2g-v1-Pt2" customClass="AbstractTableViewController" sceneMemberID="viewController">
+                <viewController title="Colleges" id="s2g-v1-Pt2" customClass="MatchCollegesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0gM-iA-lyb">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2309,7 +2312,7 @@
                                     <outlet property="delegate" destination="s2g-v1-Pt2" id="bAe-O7-eim"/>
                                 </connections>
                             </tableView>
-                            <searchBar contentMode="redraw" barStyle="blackOpaque" placeholder="Search for College" translatesAutoresizingMaskIntoConstraints="NO" id="UA6-pa-agX">
+                            <searchBar contentMode="redraw" barStyle="blackOpaque" placeholder="Search for College" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UA6-pa-agX">
                                 <textInputTraits key="textInputTraits"/>
                                 <scopeButtonTitles>
                                     <string>All</string>
@@ -2334,6 +2337,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="Rp2-rM-0zu"/>
                     <connections>
+                        <outlet property="searchBar" destination="UA6-pa-agX" id="ZSU-j2-KEh"/>
+                        <outlet property="searchController" destination="AZK-Ew-QxR" id="gO3-Jc-WBb"/>
                         <outlet property="tableView" destination="fBq-WZ-Wlg" id="ABJ-qn-VQY"/>
                     </connections>
                 </viewController>
@@ -2356,117 +2361,13 @@
         <image name="second" width="16" height="16"/>
         <image name="third.png" width="30" height="30"/>
     </resources>
-    <classes>
-        <class className="AbstractTableViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/AbstractTableViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="UITableView"/>
-            </relationships>
-        </class>
-        <class className="CollegeCell" superclassName="UITableViewCell">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CollegeCell.h"/>
-            <relationships>
-                <relationship kind="outlet" name="acceptance" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="college" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="collegeIcon" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="cost" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="enrollment" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="type" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="CollegeDetailViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CollegeDetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="saveButtonPressed:"/>
-                <relationship kind="outlet" name="acceptanceRate" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="act25" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="act75" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="admUrl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="appFee" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="appUrl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="calcUrl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="classification" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="collegeIcon" candidateClass="UIImageView"/>
-                <relationship kind="outlet" name="collegeLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="collegeUrl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="endowment" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="enrollment" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="facultyRatio" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="finAidUrl" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="fourYrGradRate" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="genderRatio" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="navButton" candidateClass="UIBarButtonItem"/>
-                <relationship kind="outlet" name="netCost" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="netCost1" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="netCost2" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="netCost3" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="netCost4" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="netCost5" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="percentFinAid" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="percentGrantAid" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="resourcesSpent" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="retentionRate" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="roomAndBoard" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="sat25" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="sat75" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="sixYrGradRate" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="totalCostInState" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="totalCostOutState" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="tuitionInState" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="tuitionOutState" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="type" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-        <class className="CollegesViewController" superclassName="AbstractTableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/CollegesViewController.h"/>
-        </class>
-        <class className="FirstViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="sortButtonPressed:"/>
-                <relationship kind="action" name="stateButtonPressed:"/>
-                <relationship kind="outlet" name="act" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="city" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="largeEnrollment" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="mat" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="mediumEnrollment" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="private_fp" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="private_nfp" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="public_t" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="religious" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="rural" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="smallEnrollment" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="sortButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="stateButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="suburb" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="town" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="ver" candidateClass="UITextField"/>
-                <relationship kind="outlet" name="wri" candidateClass="UITextField"/>
-            </relationships>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-        <class className="SavedCollegesViewController" superclassName="AbstractTableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SavedCollegesViewController.h"/>
-        </class>
-        <class className="StatesViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/StatesViewController.h"/>
-        </class>
-        <class className="WebViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/WebViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="G8q-sa-sER"/>
+        <segue reference="Kc3-RR-JSP"/>
         <segue reference="FMt-sM-zlP"/>
     </inferredMetricsTieBreakers>
 </document>
