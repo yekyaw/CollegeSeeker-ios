@@ -34,7 +34,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    if (tableView == self.searchDisplayController.searchResultsTableView)
+    if (tableView != self.tableView)
         return [self.searchResults count];
     else
         return [self.colleges count];
@@ -48,7 +48,7 @@
     }
     
     College *college;
-    if (tableView == self.searchDisplayController.searchResultsTableView)
+    if (tableView != self.tableView)
         college = [self.searchResults objectAtIndex:indexPath.row];
     else
         college = [self.colleges objectAtIndex:indexPath.row];
@@ -100,7 +100,7 @@
                                     predicateWithFormat:@"SELF.name contains[cd] %@",
                                     searchText];
     id array = [self.colleges filteredArrayUsingPredicate: resultPredicate];
-    if (![scope isEqualToString:@"All"]) {
+    if ((scope != nil) && (![scope isEqualToString:@"All"])) {
         resultPredicate = [NSPredicate
                            predicateWithFormat:@"SELF.type contains[cd] %@",
                            scope];

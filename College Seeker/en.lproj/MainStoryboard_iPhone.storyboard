@@ -528,7 +528,7 @@
                                     <string>Private</string>
                                 </scopeButtonTitles>
                                 <connections>
-                                    <outlet property="delegate" destination="3" id="UEb-OH-IMV"/>
+                                    <outlet property="delegate" destination="3" id="whA-R5-f0d"/>
                                 </connections>
                             </searchBar>
                         </subviews>
@@ -550,7 +550,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="KbP-yV-ksF">
+                <searchDisplayController searchResultsTitle="Search Results" id="KbP-yV-ksF">
                     <connections>
                         <outlet property="delegate" destination="3" id="CZE-BM-Zq2"/>
                         <outlet property="searchBar" destination="tnF-cP-c9R" id="eSA-nI-XsP"/>
@@ -2117,7 +2117,7 @@
                                     <string>Private</string>
                                 </scopeButtonTitles>
                                 <connections>
-                                    <outlet property="delegate" destination="RpW-yA-POi" id="iO1-z4-tHN"/>
+                                    <outlet property="delegate" destination="RpW-yA-POi" id="zhd-Pb-a5r"/>
                                 </connections>
                             </searchBar>
                         </subviews>
@@ -2134,12 +2134,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="ypa-Mj-9bC"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="KbP-yV-ksF" id="9s2-E7-DwQ"/>
                         <outlet property="tableView" destination="k7k-WE-UsR" id="7vS-no-9dP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QCT-Ph-sPL" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="0bu-My-Gt4">
+                <searchDisplayController searchResultsTitle="Search Results" id="0bu-My-Gt4">
                     <connections>
                         <outlet property="delegate" destination="RpW-yA-POi" id="ezq-ba-5Zf"/>
                         <outlet property="searchBar" destination="lXQ-4R-kiG" id="17P-g8-kF0"/>
@@ -2318,7 +2317,7 @@
                                     <string>Private</string>
                                 </scopeButtonTitles>
                                 <connections>
-                                    <outlet property="delegate" destination="s2g-v1-Pt2" id="qWz-dS-1Uz"/>
+                                    <outlet property="delegate" destination="s2g-v1-Pt2" id="QeY-Lt-PdB"/>
                                 </connections>
                             </searchBar>
                         </subviews>
@@ -2335,18 +2334,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="Rp2-rM-0zu"/>
                     <connections>
-                        <outlet property="searchDisplayController" destination="KbP-yV-ksF" id="vkZ-ac-zdL"/>
                         <outlet property="tableView" destination="fBq-WZ-Wlg" id="ABJ-qn-VQY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJE-15-ITn" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="AZK-Ew-QxR">
+                <searchDisplayController searchResultsTitle="Search Results" id="AZK-Ew-QxR">
                     <connections>
-                        <outlet property="delegate" destination="s2g-v1-Pt2" id="oao-rY-1fs"/>
-                        <outlet property="searchBar" destination="UA6-pa-agX" id="KhO-5o-Ufj"/>
-                        <outlet property="searchContentsController" destination="s2g-v1-Pt2" id="f5P-ob-dos"/>
-                        <outlet property="searchResultsDataSource" destination="s2g-v1-Pt2" id="9gg-zp-AgY"/>
-                        <outlet property="searchResultsDelegate" destination="s2g-v1-Pt2" id="QG1-rH-ufI"/>
+                        <outlet property="delegate" destination="s2g-v1-Pt2" id="gHE-On-c22"/>
+                        <outlet property="searchBar" destination="UA6-pa-agX" id="uMJ-Sk-JYv"/>
+                        <outlet property="searchContentsController" destination="s2g-v1-Pt2" id="hzg-7W-QtG"/>
+                        <outlet property="searchResultsDataSource" destination="s2g-v1-Pt2" id="rkc-ut-anT"/>
+                        <outlet property="searchResultsDelegate" destination="s2g-v1-Pt2" id="63R-fJ-6hv"/>
                     </connections>
                 </searchDisplayController>
             </objects>
@@ -2468,7 +2466,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="G8q-sa-sER"/>
         <segue reference="FMt-sM-zlP"/>
-        <segue reference="Kc3-RR-JSP"/>
     </inferredMetricsTieBreakers>
 </document>
